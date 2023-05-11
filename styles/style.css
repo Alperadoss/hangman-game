@@ -1,10 +1,13 @@
 body {
   background-color: bisque;
+  background-image: url("/bckgrndpic.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #bckgrndpic {
   max-width: 1000px;
-  z-index: -2;
+  z-index: -1;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -25,6 +28,7 @@ body {
   left: 0px;
 }
 .gallowsstick {
+  display: none;
   width: 5px;
   height: 400px;
   background-color: blue;
@@ -34,6 +38,7 @@ body {
 }
 
 .gallowrope {
+  display: none;
   width: 5px;
   height: 10px;
   background-color: blue;
@@ -42,6 +47,7 @@ body {
   left: 105px;
 }
 .head {
+  display: none;
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -52,6 +58,7 @@ body {
 }
 
 .body {
+  display: none;
   width: 10px;
   height: 100px;
   background-color: black;
@@ -61,6 +68,7 @@ body {
 }
 
 .left-arm {
+  display: none;
   width: 65px;
   height: 10px;
   background-color: black;
@@ -71,6 +79,7 @@ body {
 }
 
 .right-arm {
+  display: none;
   width: 65px;
   height: 10px;
   background-color: black;
@@ -81,6 +90,7 @@ body {
 }
 
 .left-leg {
+  display: none;
   width: 10px;
   height: 90px;
   background-color: black;
@@ -91,6 +101,7 @@ body {
 }
 
 .right-leg {
+  display: none;
   width: 10px;
   height: 90px;
   background-color: black;
@@ -109,7 +120,7 @@ body {
   margin-bottom: 20px;
 }
 button.buttons {
-  background-color: #68c72e;
+  background-color: #afe38f;
   border: none;
   border-radius: 5px;
   color: #333;
@@ -123,55 +134,21 @@ button.buttons:hover {
   background-color: #ccc;
 }
 
-.Category {
-  background-color: #f0f0f0;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-.Category p {
-  font-size: 1.2rem;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-p {
-  font-size: 1.2rem;
-  margin: 0;
-  text-align: center;
-}
-
-body {
-  background-color: #68c72e;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .text {
   align-items: center;
-  background-color: #68c72e;
+  background-color: rgba(103, 100, 100, 0.5);
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .text h1 {
   font-size: 3rem;
   margin: 0;
   text-transform: uppercase;
-}
-
-.text h2 {
-  font-size: 1.5rem;
-  margin: 0;
-  text-align: center;
 }
 
 .text p {
